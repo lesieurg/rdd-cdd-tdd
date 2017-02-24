@@ -1,19 +1,24 @@
+// using Strict mode
 'use strict';
 
+// Constants declaration
 const YQL = require('yql');
 const _ = require('lodash');
 
+// Function to export
 module.exports = (opts, callback) => {
 	opts = opts || [];
 
+	// Variable declaration
 	let query;
 
-	if (_.isEmpty(opts)) {
+	if (_.isEmpty(opts)) { // Empty, values by default are Dhaka and Bangladesh
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="Dhaka, Bangladesh")');
-	} else {
+	} else { // If not empty
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="' + opts[0] + ', ' + opts[1] + '")');
 	}
 
+	// Check error
 	query.exec((err, response) => {
 		if (err) {
 			return callback(err);
