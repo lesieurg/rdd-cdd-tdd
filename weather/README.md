@@ -7,7 +7,7 @@
 ## Required
 -   a computer
 -   NodeJs
--   
+
 ## Installation
 `$ npm install -g cli-weather or $ sudo npm install -g cli-weather` (for mac users)
 
