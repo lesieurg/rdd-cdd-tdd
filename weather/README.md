@@ -15,7 +15,7 @@ TODO: Write usage instructions
 
 ## Install Node js
 <a href="https://www.youtube.com/watch?v=yUdHk-Dk_BY
-" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2000px-Node.js_logo.svg.png"
+" target="_blank"><img src="https://www.youtube.com/watch?v=yUdHk-Dk_BY"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
