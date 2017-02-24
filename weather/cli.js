@@ -3,7 +3,7 @@
 // using Strict mode
 'use strict';
 
-// Constants declaration
+// Constants and requirements declaration
 const meow = require('meow');
 const chalk = require('chalk');
 const updateNotifier = require('update-notifier');

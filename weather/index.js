@@ -1,7 +1,7 @@
 // using Strict mode
 'use strict';
 
-// Constants declaration
+// Constants and requirements declaration
 const YQL = require('yql');
 const _ = require('lodash');
 
