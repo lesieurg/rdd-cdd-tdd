@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-# test
-TODO: Write a project description
+# cli-weather
+Puts the weather in the console
 ## Installation
 TODO: Describe the installation process
 ## Usage
@@ -12,6 +12,14 @@ TODO: Write usage instructions
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+## Install Node js
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://www.youtube.com/watch?v=Q0HFBy2BtfA"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+
 ## History
 TODO: Write history
 ## Credits
@@ -21,3 +29,6 @@ TODO: Write license
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
+
+
+<!-- Youtube video -->
